@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.navigation {
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 20px;
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 20px 23px;
+}
+
+section {
+    height: 344px;
+    font-family: "Baloo Bhai 2", cursive;
+    margin: 3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem
+}
+header::before{
+    background: url('/coding\ image.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
